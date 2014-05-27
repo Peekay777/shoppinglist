@@ -1,0 +1,90 @@
+/*
+* {
+	outline: 1px dashed #999;	
+}
+*/
+
+body {
+	background-image: url("images/Shopping-Mall-of-America-Saint-Paul.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#wrapper {
+	margin: 10px auto;
+	width: 400px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #000;
+	min-height: 400px;
+}
+
+header {
+	padding: 5px;
+	margin-left: 5px;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+#main {
+	margin: auto 5px;
+	padding: 5px;
+	vertical-align: top;
+}
+
+#thelist {
+	font-size: 20px;
+	margin: 5px;
+}
+
+#form {
+	margin: auto 5px;
+}
+
+#addbox {
+	width: 200px;
+	height: 20px;
+}
+
+#addbutton {
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	background-image: url(images/green-plus-sign-md.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	vertical-align: text-top;
+	text-align:center;
+	text-decoration:none;
+	border: 0px;
+}
+
+li {
+	margin: 2px auto;
+}
+
+.del {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background-image: url(images/DeleteRed.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	vertical-align: middle;
+}
+
+.items {
+	margin-left: 5px;
+	display: inline-block;
+	text-transform: capitalize;
+}
+
+.checked {
+	text-decoration: line-through;
+}
