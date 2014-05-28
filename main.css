@@ -8,6 +8,7 @@ body {
 	background-image: url("images/Shopping-Mall-of-America-Saint-Paul.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: #333;
 }
 
 #wrapper {
@@ -17,7 +18,8 @@ body {
 	background-color: #fff;
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px #000;
-	min-height: 400px;
+	min-height: 140px;
+	padding-bottom: 5px;
 }
 
 header {
@@ -40,13 +42,17 @@ h2 {
 }
 
 #form {
-	margin: auto 5px auto 10px;
+	margin: auto 5px 10px 10px;
 	vertical-align: middle;
 }
 
 #addbox {
 	width: 200px;
 	height: 20px;
+	border-radius: 5px;
+	border: 1px solid #66f;
+	padding-left: 2px;
+	border: 1px solid #66f;
 }
 
 #addbutton {
@@ -76,11 +82,16 @@ h2 {
 }
 
 #instructions {
-	color: blue;
+	background-color: #eef;
+	border: 1px solid #66f;
+	border-radius: 5px;
 	display: inline-block;
-	font-size: 12px;
-	text-align: right;
-	width: 120px;
+	font-size: 14px;
+	font-variant: small-caps;
+	margin-right: 10px;
+	padding: 4px;
+	text-align: center;
+	float: right;
 }
 
 #thelist {
@@ -92,8 +103,12 @@ h2 {
 	margin: 2px auto;
 }
 
- #thelist li:nth-child(odd) {
-	background-color: #eeeeff;
+#thelist li:nth-child(odd) {
+	background-color: #eef;
+}
+
+#thelist li:nth-child(even) {
+	background-color: #f9f9ff;
 }
 
 .del {
@@ -124,6 +139,13 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	font-weight: bold;
+	font-variant: small-caps;
+	padding-bottom: 5px;
+	text-decoration: underline;
+}
+
 #instructions-info {
 	display: none;
 	background-color: #eee;
@@ -133,12 +155,10 @@ h2 {
 	top: 120px;
 	left: 130px;
 	width: 250px;
-	padding: 1px;
+	padding: 5px;
 	z-index: 1;
 }
 
-#instructions-info ul {
-	margin: 5px 5px 5px 20px;
-	padding-left: 5px;
-	list-style: disc;
+#instructions-info ul li{
+	padding-bottom: 8px;
 }

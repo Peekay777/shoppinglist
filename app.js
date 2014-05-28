@@ -39,6 +39,7 @@ $(document).ready(function() {
 		if( retVal == true ){
 			$("#thelist").children().remove();
 			checkForLastItem();
+			$("#addbox").val("");
 			return true;
 		}
 	});
