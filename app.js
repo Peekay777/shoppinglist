@@ -50,7 +50,7 @@ function addItem () {
 	var addbox = $("#addbox").val().trim();
 	if (addbox != "") {
 		$("#example-item").remove();
-		var item = '<li><div class="del"></div><div class="items">' + addbox + '</div></li>';
+		var item = '<li><div class="del" title="Remove item"></div><div class="items" title="Mark item">' + addbox + '</div></li>';
 		$("#thelist").prepend (item);
 		$("#addbox").val("");
 	}

@@ -111,6 +111,10 @@ h2 {
 	background-color: #f9f9ff;
 }
 
+#thelist li:hover {
+	background-color: #F6E3CE;
+}
+
 .del {
 	display: inline-block;
 	height: 20px;
