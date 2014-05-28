@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<!-- jquery UI -->
+	<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 	<script src="app.js"></script>
 </head>
 	<body>
@@ -17,12 +19,22 @@
 			<div id="form">
 				<input type="text" id="addbox" name="addbox" placeholder="Enter item">
 				<button type="submit" id="addbutton"></button>
+				<button id="newbutton"></button>
+				<span id="instructions">(INSTRUCTIONS)</span>
+			</div>
+			<div id="instructions-info">
+				<ul>
+					<li>Enter items into the box</li>
+					<li>Click the green plus or press Enter to add item to list</li>
+					<li>Click on item on list to mark it</li>
+					<li>Click on red cross to delete item from list</li>
+					<li>Drag item to reorder the list</li>
+					<li>Click the new page to start a new list</li>
+				</ul>
 			</div>
 			<ul id="thelist">
-				<li><div class="del"></div><div class="items">Bread</div></li>
-				<li><div class="del"></div><div class="items">Eggs</div></li>
-				<li><div class="del"></div><div class="items checked">Butter</div></li>
+				<li id="example-item" class="example">(Waiting for your items)</li>
 			</ul>
-	</div>
+		</div>
 	</body>
 </html>
